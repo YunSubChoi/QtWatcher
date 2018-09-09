@@ -11,17 +11,14 @@ public final class Log {
     }
 
     public static void warning (String tag, String log) {
-        String tid = getThreadIdString(Thread.currentThread().getId());
         print(tag, log, WRN);
     }
 
     public static void msg (String tag, String log) {
-        String tid = getThreadIdString(Thread.currentThread().getId());
         print(tag, log, MSG);
     }
 
     public static void dbg (String tag, String log) {
-        String tid = getThreadIdString(Thread.currentThread().getId());
         print(tag, log, DBG);
     }
 
