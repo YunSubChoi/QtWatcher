@@ -1,8 +1,8 @@
 package com.kwons.qtwatcher.view;
 
-import javafx.scene.control.Button;
+import java.awt.Button;
 
-public class StopButton extends Button {
+public class StopButton extends java.awt.Button {
     public StopButton () {
         super("Stop");
     }

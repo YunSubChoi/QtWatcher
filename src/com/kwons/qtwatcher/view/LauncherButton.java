@@ -1,6 +1,6 @@
 package com.kwons.qtwatcher.view;
 
-import javafx.scene.control.Button;
+import java.awt.Button;
 
 public class LauncherButton extends Button {
     public LauncherButton () {

@@ -1,7 +1,7 @@
 package com.kwons.qtwatcher.view;
 
-import javafx.scene.control.ListView;
+import java.awt.List;
 
-public class ShoppingMallList extends ListView {
+public class ShoppingMallList extends List {
 
 }

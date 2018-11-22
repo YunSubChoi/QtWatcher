@@ -1,6 +1,6 @@
 package com.kwons.qtwatcher.view;
 
-import javafx.scene.control.TextField;
+import java.awt.TextField;
 
 public class MailAddressField extends TextField {
 
