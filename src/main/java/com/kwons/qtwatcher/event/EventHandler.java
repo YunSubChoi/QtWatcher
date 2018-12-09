@@ -8,7 +8,6 @@ public class EventHandler {
     private String TAG = "EventHandler";
 
     private static EventHandler mInstance;
-    private static Object instanceLock;
 
     private Queue<Event> eventQ;
 
@@ -22,7 +21,7 @@ public class EventHandler {
      * */
     public static EventHandler getInstance() {
         if (mInstance == null) {
-            synchronized (instanceLock) {
+            synchronized (EventHandler.class) {
                 if (mInstance == null) {
                     mInstance = new EventHandler();
                 }
